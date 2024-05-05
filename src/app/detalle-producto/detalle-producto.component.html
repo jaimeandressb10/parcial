@@ -1,0 +1,9 @@
+<div class="product">
+  <h2>Nombre: {{ product.title }}</h2>
+  <p>id: {{product.id}}</p>
+  <img [src]="product.image" alt="{{ product.title }}" style="width: 100px; height: 100px;">
+  <p>descripcion: {{ product.description }}</p>
+  <p>Categoría: {{product.category}}</p>
+  <p><strong>Price:</strong> {{ product.price }}</p>
+  <button><a href="home">Regresar</a></button>
+</div>

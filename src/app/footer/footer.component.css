@@ -1,0 +1,13 @@
+.footer {
+  background-color: #dfdfdf;
+  padding: 20px;
+  text-align: center; /* Centra el contenido del footer */
+}
+
+.footer-text {
+  font-weight: bold;
+}
+
+.footer-link {
+  text-decoration: none; /* Quita la decoración de los enlaces */
+}

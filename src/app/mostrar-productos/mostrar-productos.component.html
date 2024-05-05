@@ -1,0 +1,9 @@
+<app-barra-menu></app-barra-menu>
+<div *ngFor="let product of products">
+  <h2>{{ product.title }}</h2>
+  <img [src]="product.image" alt="{{ product.title }}" style="width: 100px; height: 100px;">
+  <p>{{ product.description }}</p>
+  <p><strong>Price:</strong> {{ product.price }}</p>
+  <button [routerLink]="['/detalle', product.id]">Ver Detalle</button>
+</div>
+<app-footer></app-footer>
